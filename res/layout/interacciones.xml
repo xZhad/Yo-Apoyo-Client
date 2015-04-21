@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical" >
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="4dp" />
+
+	<LinearLayout android:id="@+id/InteraccionesClick"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:padding="12dp"
+		android:orientation="vertical"
+		android:background="@color/grisDARK" >
+
+		<TextView android:id="@+id/InteraccionesDescripcion"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:text="@string/app_name"
+			android:textSize="12sp"
+			android:maxLines="2"
+			android:textColor="@color/casiblanco" />
+		
+		<ImageView android:id="@+id/InteraccionesImagen"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:layout_gravity="center_horizontal|center_vertical"
+			android:contentDescription="@string/app_name" />
+
+	</LinearLayout>
+
+	<View
+		android:layout_width="match_parent"
+		android:layout_height="4dp" />
+
+</LinearLayout>

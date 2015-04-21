@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/casiblanco" >
+
+	<FrameLayout
+		android:layout_width="match_parent"
+		android:layout_height="64dp"
+		android:padding="12dp"
+		android:background="@color/grisDARK" >
+		
+	    <ImageView android:id="@+id/IncidenteIco"
+			android:layout_width="40dp"
+			android:layout_height="40dp"
+			android:layout_gravity="left|center_vertical"
+			android:src="@drawable/ic_launcher"
+			android:scaleType="fitCenter"
+			android:contentDescription="@string/app_name" />
+
+		<TextView android:id="@+id/IncidenteCategoria"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right|center_vertical"
+			android:text="@string/app_name"
+			android:textSize="24sp"
+			android:textColor="@color/naranjoDARK" />
+
+	</FrameLayout>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="64dp"
+		android:layout_gravity="bottom"
+		android:padding="12dp"
+		android:background="@color/casinegro"
+		android:scrollbars="vertical"
+		android:fadeScrollbars="false"
+		android:scrollbarAlwaysDrawVerticalTrack="true" >
+	    
+	    <LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:orientation="vertical" >
+			
+	        <LinearLayout
+	            android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:orientation="horizontal" >
+	            
+	            <ImageView
+					android:layout_width="0dp"
+					android:layout_height="40dp"
+					android:layout_weight="1"
+					android:gravity="right|center_vertical"
+					android:src="@drawable/thumbupadd"
+					android:contentDescription="@string/app_name"
+					android:onClick="apoyar" />
+	            
+	            <TextView android:id="@+id/IncidenteApoyo"
+					android:layout_width="0dp"
+					android:layout_height="40dp"
+					android:layout_weight="1"
+					android:gravity="left|center_vertical"
+					android:text="@string/app_name"
+					android:textSize="24sp"
+					android:textColor="@color/naranjoDARK" />
+	            
+	            
+	            
+	        </LinearLayout>
+	        
+	        <TextView android:id="@+id/IncidenteDescripcion"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:text="@string/app_name"
+				android:textSize="16sp"
+				android:textColor="@color/casiblanco" />
+	        
+	        <TextView android:id="@+id/IncidenteFecha"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="right"
+				android:text="@string/app_name"
+				android:textSize="14sp"
+				android:textColor="@color/casiblanco" />
+	        
+	        <TextView android:id="@+id/IncidenteEstado"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="left"
+				android:text="@string/app_name"
+				android:textSize="14sp"
+				android:textColor="@color/casiblanco" />
+	        
+	        <ImageView android:id="@+id/IncidenteImagen"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_gravity="center_horizontal|center_vertical"
+				android:src="@drawable/ic_launcher"
+				android:contentDescription="@string/app_name" />
+			
+		    <LinearLayout android:id="@+id/IncidenteContent"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="10dp"
+				android:orientation="vertical" >
+	
+				<View
+					android:layout_width="match_parent"
+					android:layout_height="wrap_content" />
+	
+			</LinearLayout>
+		
+		</LinearLayout>
+
+	</ScrollView>
+
+	<FrameLayout android:id="@+id/IncidentWorking"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:visibility="gone"
+		android:background="@color/darken" >
+
+		<ProgressBar
+			android:indeterminate="true"
+			android:indeterminateOnly="true"
+			android:layout_marginTop="96dp"
+			android:layout_width="48dp"
+			android:layout_height="48dp"
+			android:layout_gravity="center_horizontal" />
+
+	</FrameLayout>
+
+</FrameLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+	<color name="azul">#33b5e5</color>
+	<color name="morado">#c58be2</color>
+	<color name="verde">#99cc00</color>
+	<color name="naranjo">#ffbd21</color>
+	<color name="rojo">#ff4444</color>
+	<color name="gris">#7c7c7c</color>
+
+	<color name="azulDARK">#0099cc</color>
+	<color name="moradoDARK">#9933cc</color>
+	<color name="verdeDARK">#669900</color>
+	<color name="naranjoDARK">#ff8a00</color>
+	<color name="rojoDARK">#ff8a00</color>
+	<color name="grisDARK">#3d3d3d</color>
+
+	<color name="azulLIGHT">#a8dff4</color>
+	<color name="moradoLIGHT">#ddbcee</color>
+	<color name="verdeLIGHT">#d3e992</color>
+	<color name="naranjoLIGHT">#ffe3a0</color>
+	<color name="rojoLIGHT">#ffafaf</color>
+	<color name="grisLIGHT">#dddddd</color>
+
+	<color name="blanco">#ffffff</color>
+	<color name="negro">#000000</color>
+	<color name="casiblanco">#f0f0f0</color>
+	<color name="casinegro">#171717</color>
+
+	<color name="darken">#AA000000</color>
+	<color name="transparent">#FF000000</color>
+
+	<color name="bgstart">#d35a2d</color>
+	<color name="bgend">#e0922e</color>
+	<color name="registro">#dade3f</color>
+
+</resources>
